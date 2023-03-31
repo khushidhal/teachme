@@ -4,7 +4,10 @@ body{
 
 header{
     background-color: #6366f1;
-    position: sticky;
+    position: fixed;
+    width: 100%;
+    overflow: hidden;
+    z-index: 20;
     top: 0;
 }
 .head{
@@ -15,11 +18,27 @@ header{
     cursor: pointer;
     color: bisque;
 }
-
-.car{
-    position: relative;
-    top: 190px;
-    left: -500px;
+.one{
+    margin: 200px 19px 10px 100px;
+    width: 500px;
+}
+.two{
+    margin: -285px 10px 10px 620px;
+    width: 500px;
+    height: 275px;
+}
+.three{
+    margin: 20px 10px 10px 100px;
+    width: 500px;
+}
+.four{
+    margin: -290px 10px 10px 620px;
+    width: 500px;
+    height: 280px;
+}
+.main{
+    margin-left: 200px;
+    margin-top: -470px;
 }
 .option1{
     margin-top: -150px;
@@ -29,6 +48,9 @@ header{
 .option2{
     margin-top: -1px;
     margin-left: 1100px;
+}
+#About{
+    margin-top: 220px;
 }
 h3{
     margin-bottom: 10px;
@@ -55,19 +77,42 @@ button{
     margin-left: 50px;
 }
 section{
-    margin-top: 130px;
+    margin-top: 90px;
 }
 .work{
     margin-left: 450px;
 }
+.howitworks{
+    margin-top: -90px;
+}
+.team,.future{
+    margin-top: -50px;
+}
 .feed{
     border: 1px solid darkgrey;
-    margin: 150px 500px;
+    margin: 100px 500px;
     background-color:rgb(248, 245, 241);
+}
+.subbtn{
+    border: 1px solid darkgray;
+    background-color: #6366f1;
+    color: white;
 }
 footer{
     background-color: #6366f1;
+    height: 100px;
 }
 .text{
     color: white;
 }
+.top {
+    text-decoration: none;
+    padding: 15px;
+    font-family: sans-serif;
+    color: #fff;
+    background: #000;
+    border-radius: 10px;
+    position: relative;
+    left: 1700px;
+    bottom: 170px;
+  }
